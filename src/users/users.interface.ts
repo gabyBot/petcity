@@ -1,7 +1,7 @@
 export interface Users {
-    ID : number;
-    Nombre : string;
-    CorreoElectronico : string;
-    Telefono : string;
-    Rol : string;
+  ID: number;
+  Nombre: string;
+  CorreoElectronico: string;
+  Telefono: number;
+  Rol: string;
 }

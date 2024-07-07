@@ -11,21 +11,21 @@ export class UsersService {
       ID: 1,
       Nombre: 'user1',
       CorreoElectronico: 'correo@correo-cl.com',
-      Telefono: '9892833',
+      Telefono: 9892833,
       Rol: 'Admin',
     },
     {
       ID: 2,
       Nombre: 'user2',
       CorreoElectronico: 'mail@correo.cl',
-      Telefono: '9895555',
+      Telefono: 9895555,
       Rol: 'AdminCuentas',
     },
     {
       ID: 3,
       Nombre: 'user3',
       CorreoElectronico: 'cmm@mail.cl',
-      Telefono: '9892833',
+      Telefono: 9892833,
       Rol: 'AdminCM',
     },
   ];
@@ -35,10 +35,10 @@ export class UsersService {
   }
 
   findOne(ID: number) {
-    const UserFound = this.users.find(user => user.ID === ID);
+    const UserFound = this.users.find((user) => user.ID === ID);
     if (!UserFound) {
       return new NotFoundException(`User with ID ${ID} not found`);
-    };
+    }
     return UserFound;
   }
 
