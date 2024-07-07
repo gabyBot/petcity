@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -71,3 +72,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+=======
+# petcity
+Browse pets available for adoption in your municipality and connect with potential adopters. This app simplifies pet adoption, promoting responsible ownership
+>>>>>>> a813cb3ca5662cbc449accdf36240d9647b0cfc6
